@@ -17,3 +17,5 @@ do {?var inputed_value = prompt('Please enter num > 100');? }
     while (inputed_value<100);
 
 console.log(inputed_value);
+
+
