@@ -11,9 +11,21 @@
  **/
 
 
-
+/**
 finction pow (a,b){
     return Math.pow(a,b);
 }
+*/
+function pov(a,b){
+    var n=a;
+    for (var i=1; i<b ;i++)
+    {
+        n *= a;
 
-alert (pow(2,3));
+    }
+    return n;
+
+}
+
+
+console.log (pov(2,30));
