@@ -12,18 +12,18 @@
 nextPrime:
     for (var i = 2; i < 10; i++)
     {
-        if (isprime(i)==true) {console.log(i + '- simple num');}
+        if (isprime(i)==true) {console.log(i + '- is a simple num');}
     }
 
 function isprime(n){
-    if(n==1) // 1 - не простое число
+    if(n==1) // тут найфиг не надо, i и так 2, но на будущее оставим.
         return false;
     // перебираем возможные делители от 2 до sqrt(n)
     for(d=2; d*d<=n; d++){
         // если разделилось нацело, то составное
-        if(n%d==0)
+        if(n%d==0) //делим произведение на возрастающее
             return false;
     }
-    // если нет нетривиальных делителей, то простое
+    // если нет  делителей, то простое
     return true;
 }
