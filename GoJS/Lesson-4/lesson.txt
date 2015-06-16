@@ -41,6 +41,24 @@ ParseFloat - парсит число с .
 
 toString - в строку в нужной системе исчисления.
 
+Округление:
+Math.floor
+Math.ceil
+Math.round
+вниз, вверх, по правилам.
+
+Неточніе вічисления!!!
+
+Math.
+aqrt
+log
+pow
+abs
+exp
+max
+min
+random от 0 до 1
+Math.ceil random ()
 
 
 
