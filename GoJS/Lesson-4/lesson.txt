@@ -60,8 +60,22 @@ min
 random от 0 до 1
 Math.ceil random ()
 
+СТРОКИ
+Класс STRING
 
+CharAt
 
+str[3] - третий символ строки
+
+indexOf() - найти подстроку.
+
+lastIndexOf - то же, с конца в начало
+
+Задача - при вводе слова сделать его с заглавной букві
+
+function upperFirst(str) {
+   return str.length ? str[0].toUpperCase() + str.slice(1, str.length) : str;
+}
 
 
 
