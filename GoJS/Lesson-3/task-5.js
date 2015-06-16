@@ -15,10 +15,10 @@
  console.log(str)*/
 
 
-var out = "#"; /*сбрасываем переменную, для отладки*/
+var out = "#";
+/*сбрасываем переменную, для отладки*/
 
-for (j = 1; j<9; j++)
-{
+for (j = 1; j < 9; j++) {
 
     for (i = 1; i < 9; i++) {
 
@@ -31,13 +31,15 @@ for (j = 1; j<9; j++)
 
 }
 /*
-for (var i=1; i<=8; i++) {
-    var a='';
-    var b='';
-    for (j=1; j<=8; j++) {
-        a=a+'# ';
-        b=b+' #';}
-    if (i%2==0) {console.log (a);}
-    else {console.log (b);}
+ for (var i=1; i<=8; i++) {
+ var a='';
+ var b='';
+ for (j=1; j<=8; j++) {
+ a=a+'# ';
+ b=b+' #';}
+ if (i%2==0) {console.log (a);}
+ else {console.log (b);}
 
-}*/
+ }*/
+
+/**РЕШИТЬ ВСЕ-таки**/
