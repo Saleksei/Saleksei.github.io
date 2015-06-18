@@ -10,7 +10,7 @@
 
 checkSpam('sex');
 
-function checkSpam(spamOrNot){
+function checkSpam(spamOrNot) {
 
     spamOrNot = spamOrNot.toLowerCase();
 

@@ -71,9 +71,10 @@ indexOf() - найти подстроку.
 
 lastIndexOf - то же, с конца в начало
 
-Задача - при вводе слова сделать его с заглавной букві
+Задача - при вводе слова сделать его с заглавной буквы.
 
 function upperFirst(str) {
+
    return str.length ? str[0].toUpperCase() + str.slice(1, str.length) : str;
 }
 

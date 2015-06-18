@@ -15,11 +15,11 @@
  console.log(fib(7)); //13
  console.log(fib(77)); //5527939700884757
  */
-function fib(n)
-{
-    return n <= 1 ? n : n + fib(--n);
+function fib(n) {
+    return n <= 1 ? n : fib(n - 1) + fib(n - 2);
 }
 
-console.log (fib(5));
+console.log(fib(3));
 
 /**function sum(n){return n ? n + sum (--n : 0} - сумма чисел от n  до 1.**/
+
