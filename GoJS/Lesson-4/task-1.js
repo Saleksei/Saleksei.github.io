@@ -17,7 +17,9 @@
  */
 function fib(n)
 {
-    return n <= 1 ? n : fib(n-1) + fib(n-2);
+    return n <= 1 ? n : n + fib(--n);
 }
 
-console.log fib(5);
+console.log (fib(5));
+
+/**function sum(n){return n ? n + sum (--n : 0} - сумма чисел от n  до 1.**/
