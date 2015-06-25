@@ -1,0 +1,8 @@
+# Saleksei.github.io
+Local variables - in functions ONLy.
+
+Global object - window.
+window(f)
+clear() - clears console.
+
+Lexical envoronment - created every time when a function is executed and contains everything declared in this function.
