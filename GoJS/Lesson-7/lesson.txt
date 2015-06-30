@@ -6,3 +6,28 @@ window(f)
 clear() - clears console.
 
 Lexical envoronment - created every time when a function is executed and contains everything declared in this function.
+
+return function from function
+
+CLOSUREs!!
+
+Scope
+
+Self executing function!!
+(function(a,b){return a + b})(10,5) - does not interact with global vars.
+
+
+
+function identity(a) {return a}
+identity(3)
+
+function add(a, b) {return a+b}
+add(3,5)
+
+function mul(a, b) {return a*b}
+mul(3,5)
+
+function identityf(a)
+{
+return function abc(){return x;}
+}
